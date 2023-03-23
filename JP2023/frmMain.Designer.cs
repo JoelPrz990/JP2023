@@ -164,12 +164,14 @@
             this.btnCategorias.Caption = "Categorias";
             this.btnCategorias.Id = 3;
             this.btnCategorias.Name = "btnCategorias";
+            this.btnCategorias.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnCategorias_ItemClick);
             // 
             // btnMarcas
             // 
             this.btnMarcas.Caption = "Marcas";
             this.btnMarcas.Id = 4;
             this.btnMarcas.Name = "btnMarcas";
+            this.btnMarcas.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnMarcas_ItemClick);
             // 
             // btnProductos
             // 

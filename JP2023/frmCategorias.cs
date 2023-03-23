@@ -25,5 +25,12 @@ namespace JP2023
         {
             gcCategorias.DataSource = categoriaBLL.GetAll();
         }
+
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            new frmNCategoria().ShowDialog();
+            categoriasBindingSource.DataSource = categoriaBLL.GetAll();
+            gvCategorias.BestFitColumns();
+        }
     }
 }
