@@ -17,10 +17,5 @@ namespace JP2023
         {
             InitializeComponent();
         }
-
-        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
-        }
     }
 }
